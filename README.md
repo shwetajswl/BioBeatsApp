@@ -28,7 +28,7 @@ Reasoning: We always recommend supporting the current version and the previous o
 
 Inspired by: [**Modern MVC**](https://www.raywenderlich.com/132662/mvc-in-ios-a-modern-approach)
 
-Reasoning: This approach tries to use a modern and testable approach but still keeping within apple's way of doing things and doesn't create any potentially brittle third party dependencies. We'll use dependency injection to enable easier testing and we have also created some templates to cut down on the amount of boilerplate code generation.
+Reasoning: This approach tries to use a modern and testable approach but still keeping within apple's way of doing things and doesn't create any potentially brittle third party dependencies. 
 
 
 ## Dependency Management
@@ -55,3 +55,4 @@ Where **NAME** is the name given when creating the classes.
 ## Design
 
 I have used Main.storyboard file to create UI screens.
+# BioBeatsApp
