@@ -1,0 +1,6 @@
+framework module Pods_BioBeatsAppTests {
+  umbrella header "Pods-BioBeatsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
