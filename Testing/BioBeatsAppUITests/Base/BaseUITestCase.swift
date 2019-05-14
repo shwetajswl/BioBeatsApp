@@ -21,6 +21,8 @@ class BaseUITestCase: XCTestCase {
     }
 
     
+    //MARK: - Launch the app
+    
     func launchApp() {
         app.launch()
     }
