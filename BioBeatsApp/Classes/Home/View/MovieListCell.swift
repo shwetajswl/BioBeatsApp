@@ -18,13 +18,13 @@ class MovieListCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        movieImgView.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.imageView
-        movieLbl.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.title
-        activityIndicator.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.activityIndicator
+        setupAccessibilityLabels()
     }
     
     
     func configureCell(arr: [MovieItem], index: Int) {
+        
+        self.accessibilityIdentifier = "MovieListCell_Index_\(String(describing: index))"
         
         activityIndicator.startAnimating()
         
@@ -46,5 +46,21 @@ class MovieListCell: UITableViewCell {
         activityIndicator.stopAnimating()
         activityIndicator.hidesWhenStopped = true
     }
+    
+}
+
+
+
+//MARK: - Private Methods
+
+extension MovieListCell {
+    
+    private func setupAccessibilityLabels() {
+        
+        movieImgView.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.imageView
+        movieLbl.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.title
+        activityIndicator.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.activityIndicator
+    }
+    
     
 }

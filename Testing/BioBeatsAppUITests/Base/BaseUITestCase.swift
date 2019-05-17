@@ -24,7 +24,20 @@ class BaseUITestCase: XCTestCase {
     //MARK: - Launch the app
     
     func launchApp() {
+        
         app.launch()
     }
 
+    
+    //MARK: - Check the visibility of XCUIElement
+    
+    func waitForElementToAppear(_ element: XCUIElement) -> Bool {
+        
+        let predicate = NSPredicate(format: "exists == true")
+        let _expectation = expectation(for: predicate, evaluatedWith: element, handler: nil)
+        let result = XCTWaiter().wait(for: [_expectation], timeout: 5)
+        
+        return result == .completed
+    }
+    
 }

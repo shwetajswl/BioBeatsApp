@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BioBeatsApp/Classes/Shared/Network/APIManager.swift"
-            timestampString = "579397481.705332"
+            filePath = "Testing/BioBeatsAppUITests/Movies List/MoviesListUITest.swift"
+            timestampString = "579791714.9904619"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "getMovieDetails(params:completion:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testUIElements()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

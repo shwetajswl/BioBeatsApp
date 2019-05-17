@@ -17,6 +17,8 @@ target 'BioBeatsApp' do
   target 'BioBeatsAppUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Alamofire'
+    pod 'Reachability'
   end
 
 end

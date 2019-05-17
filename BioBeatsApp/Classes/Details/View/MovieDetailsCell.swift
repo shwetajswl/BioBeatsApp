@@ -48,6 +48,8 @@ extension MovieDetailsCell {
     
     func configureCell(dict: [String: String], index: Int, key: String) {
         
+        self.accessibilityIdentifier = "MovieDetailsCell_Index_\(String(describing: index))"
+            
         activityIndicator.startAnimating()
         
         if index == 0 {
@@ -111,7 +113,8 @@ extension MovieDetailsCell {
     
     
     private func setupAccessibilityLabels() {
-        imageView?.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.Cell.imageView
+        
+        movieImgView?.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.Cell.imageView
         titleLbl.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.Cell.titleLbl
         valueTxtView.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.Cell.valueLbl
         activityIndicator.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.Cell.activityIndicator

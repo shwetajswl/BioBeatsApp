@@ -12,6 +12,8 @@ class MoviesListUITest: BaseUITestCase {
 
     override func setUp() {
         super.setUp()
+   
+        launchApp()
     }
 
     override func tearDown() {
@@ -19,11 +21,14 @@ class MoviesListUITest: BaseUITestCase {
     }
 
     
-    // 1
     func testUIElements() {
         
-        launchApp()
+        let table = app.tables[Accessibility.Identifiers.MoviesList.Table.tableView]
+        let imageView = table.cells.images[Accessibility.Identifiers.MoviesList.Table.Cell.imageView]
+        let title = table.cells.staticTexts[Accessibility.Identifiers.MoviesList.Table.Cell.title]
         
+        XCTAssertTrue(waitForElementToAppear(title))
+        XCTAssertTrue(waitForElementToAppear(imageView))
     }
 
 }
