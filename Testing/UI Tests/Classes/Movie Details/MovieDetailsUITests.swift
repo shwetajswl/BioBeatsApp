@@ -1,19 +1,17 @@
 //
-//  MovieDetailUITests.swift
+//  MovieDetailsUITests.swift
 //  BioBeatsAppUITests
 //
-//  Created by Sweta Jaiswal on 15/05/2019.
+//  Created by Sweta Jaiswal on 20/05/2019.
 //  Copyright © 2019 Sweta Jaiswal. All rights reserved.
 //
 
 import XCTest
 
-class MovieDetailUITests: BaseUITestCase {
+class MovieDetailsUITests: BaseUITestCase {
 
     override func setUp() {
         super.setUp()
-   
-        launchApp()
     }
 
     override func tearDown() {
@@ -21,14 +19,14 @@ class MovieDetailUITests: BaseUITestCase {
     }
 
     
-    func testUIElements() {
+    func testMovieDetailsUIComponents() {
         
-        let homeTable = app.tables[Accessibility.Identifiers.MoviesList.Table.tableView]
-        homeTable.cells["MovieListCell_Index_0"].tap()
-
+        let listTable = app.tables[Accessibility.Identifiers.MoviesList.Table.tableView]
+        listTable.cells["MovieListCell_Index_0"].tap()
+        
         // UI components of details screen
         
-        let table = app.tables[Accessibility.Identifiers.MovieDetails.Table.tableview]
+        let table = app.tables[Accessibility.Identifiers.MovieDetails.Table.tableView]
         let cell_0 = table.cells["MovieDetailsCell_Index_0"]
         let cell_1 = table.cells["MovieDetailsCell_Index_1"]
         
@@ -53,5 +51,7 @@ class MovieDetailUITests: BaseUITestCase {
         XCTAssertFalse(imageView_1.exists)
         
     }
-
+    
 }
+
+  

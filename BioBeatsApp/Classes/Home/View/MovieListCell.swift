@@ -58,7 +58,7 @@ extension MovieListCell {
     private func setupAccessibilityLabels() {
         
         movieImgView.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.imageView
-        movieLbl.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.title
+        movieLbl.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.titleLbl
         activityIndicator.accessibilityIdentifier = Accessibility.Identifiers.MoviesList.Table.Cell.activityIndicator
     }
     

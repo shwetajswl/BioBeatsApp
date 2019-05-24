@@ -28,7 +28,7 @@ struct Accessibility {
                 
                 struct Cell {
                     static let imageView = "MOVIE_LIST_CELL_IMAGE_VIEW"
-                    static let title = "MOVIE_LIST_CELL_TITLE_LABEL"
+                    static let titleLbl = "MOVIE_LIST_CELL_TITLE_LABEL"
                     static let activityIndicator = "MOVIE_LIST_CELL_IMAGE_VIEW_ACTIVITY_INDICATOR"
                 }
             }
@@ -41,7 +41,7 @@ struct Accessibility {
             static let activityIndicator = "MOVIE_DETAIL_ACTIVITY_INDICATOR"
             
             struct Table {
-                static let tableview = "MOVIE_DETAIL_TABLE_VIEW"
+                static let tableView = "MOVIE_DETAIL_TABLE_VIEW"
                 
                 struct Cell {
                     static let titleLbl = "MOVIE_DETAIL_CELL_TITLE_LABEL"

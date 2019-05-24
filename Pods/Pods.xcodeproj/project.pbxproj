@@ -15,9 +15,8 @@
 		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A4161BFE9335D6B92875D4F6B4244 /* Request.swift */; };
 		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F61F57E8825AE917171392A051408 /* Foundation.framework */; };
 		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02A1F39045FAC1050A88AD96B115D7 /* DispatchQueue+Alamofire.swift */; };
-		559511C1E036FBB821C5FC68EE7E5907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F61F57E8825AE917171392A051408 /* Foundation.framework */; };
-		5C22AF8FB492DA059499C9FEE857F563 /* Pods-BioBeatsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82AA0299297377838B9A512CBFEDBA /* Pods-BioBeatsAppUITests-dummy.m */; };
-		5E2A0CB8E263D0B3FB2ABE500511B87A /* Pods-BioBeatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E8D8384EA51206EEA8358E4DD2BF4A /* Pods-BioBeatsApp-dummy.m */; };
+		5C22AF8FB492DA059499C9FEE857F563 /* Pods-BioBeatsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8419E1429FA1853BF941C95C43CE8AE7 /* Pods-BioBeatsAppUITests-dummy.m */; };
+		5E2A0CB8E263D0B3FB2ABE500511B87A /* Pods-BioBeatsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE08FD35FF5D26EEE4E3716E6F8D1C /* Pods-BioBeatsApp-dummy.m */; };
 		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D4BC630C548DAC344AE3C01D9D587E /* Timeline.swift */; };
 		60FC329FB3015085825DD5C88FF9466B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F61F57E8825AE917171392A051408 /* Foundation.framework */; };
 		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A599970B2BB18518B6DA7FBE6F96A2 /* ResponseSerialization.swift */; };
@@ -28,7 +27,8 @@
 		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429A078FD8EDB866BD2F23A777CCA20 /* AFError.swift */; };
 		8261276D95307EE7E9D4CC5D4BB45D80 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C56476074C13A86579737FD1A15C42A0 /* Reachability.m */; };
 		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCBD062613D0F1C361CCFDC33BDEC79 /* ServerTrustPolicy.swift */; };
-		933BDF472E04EC87E9BA171E0A1AE176 /* Pods-BioBeatsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B55AC8E0951F04B9C29921F6507D382 /* Pods-BioBeatsAppTests-dummy.m */; };
+		94A14E87618F6E12333F92CD38BE01DD /* Pods-BioBeatsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6730B586E2E442CCCB1F9E86E0BFDE4C /* Pods-BioBeatsAppTests-dummy.m */; };
+		9DEF12B78B4A32CDFD8F9221939F8C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F61F57E8825AE917171392A051408 /* Foundation.framework */; };
 		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAA5877D4438110AA3228CE57E1F73 /* SessionDelegate.swift */; };
 		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61861584D3225CC18375B45A06D55F07 /* Validation.swift */; };
 		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB86CD7013A59B244C106C585A46CD /* MultipartFormData.swift */; };
@@ -36,21 +36,35 @@
 		BCD994EE15E86B5A3CF687B30D55C5B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D716FF4D8E270E8C872C69221EFF896 /* SystemConfiguration.framework */; };
 		BD309E5569C9751F3456A96C85092614 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A29832FF33541B93F3F3546FFA7646 /* Reachability-dummy.m */; };
 		C5B8FA66DCD4223FBDB42012CC0F829D /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D60CE2C90A5EC44EF35ACC0BA72E942A /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE32F160B28FAA8A46A1B7F119E1CF51 /* Pods-BioBeatsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AF2C992FDA55405706311C6A2BAEE9 /* Pods-BioBeatsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE6DFC3A9244E5369B99055C74EA67A5 /* Pods-BioBeatsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27974B2DA7FDB57DCD30D6249D0DAC58 /* Pods-BioBeatsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE32F160B28FAA8A46A1B7F119E1CF51 /* Pods-BioBeatsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C2FFE564F802BD6C88FC2140684FB0 /* Pods-BioBeatsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C933480AE5AB170C70EF11A7297AB607 /* SessionManager.swift */; };
-		E157CE493E7550F5BCA642E291F737B0 /* Pods-BioBeatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF181B849527D47A0B2D9E85E8021961 /* Pods-BioBeatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E157CE493E7550F5BCA642E291F737B0 /* Pods-BioBeatsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A17101CDAD74F43A268EAF1D438EBE /* Pods-BioBeatsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F18842A49C75F872ACA695231C7A04 /* Result.swift */; };
+		F1F3250D13E12621648513FAC9141CCC /* Pods-BioBeatsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C01874F3F0ECDD07CCA347ECAB7DEF /* Pods-BioBeatsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA1DC3CB7931D1019D54ACC25466A563 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FB11E0CD9C7F32500F9C77C83EE70B /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9388BB666C99F5799B449B4ADEE781A4 /* PBXContainerItemProxy */ = {
+		10A47A180CECE778BFDD8F3E37992770 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 373E7958D28FF3D70305CB94E3DB2FAB;
 			remoteInfo = "Pods-BioBeatsApp";
+		};
+		3726838F4D7126A9CA29FD861DEFFC7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F1295F9971E57470FF114B2D021F91;
+			remoteInfo = Reachability;
+		};
+		889184E8B2DE9596C7518C66C8692A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
+			remoteInfo = Alamofire;
 		};
 		9ED57A21B214CAD585231D2B255A06C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -91,78 +105,79 @@
 
 /* Begin PBXFileReference section */
 		01D4BC630C548DAC344AE3C01D9D587E /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		052152F80AF8EA834CD5B749D7A7CDD7 /* Pods-BioBeatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08C2F17DBCBF2301097B6B0F4E5B449E /* Pods-BioBeatsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsAppUITests.modulemap"; sourceTree = "<group>"; };
 		0B02A1F39045FAC1050A88AD96B115D7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		0B766BBE8F4F4D6E1776EF73ED4E1A1E /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
 		0DCAA5877D4438110AA3228CE57E1F73 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1A4507432EBFD2967D0E6170AAF0A5A8 /* Pods-BioBeatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsApp.release.xcconfig"; sourceTree = "<group>"; };
+		18A17101CDAD74F43A268EAF1D438EBE /* Pods-BioBeatsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsApp-umbrella.h"; sourceTree = "<group>"; };
+		19C2FFE564F802BD6C88FC2140684FB0 /* Pods-BioBeatsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		1F4B5DF1892BB5A56C122883F07B6D6B /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		20199397DF96CE07D6AC88C19BD782A0 /* Pods-BioBeatsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		206F61F57E8825AE917171392A051408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		21A599970B2BB18518B6DA7FBE6F96A2 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		27974B2DA7FDB57DCD30D6249D0DAC58 /* Pods-BioBeatsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsAppTests-umbrella.h"; sourceTree = "<group>"; };
-		2DDD3AA79D250483FEE5898747332684 /* Pods-BioBeatsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppTests-Info.plist"; sourceTree = "<group>"; };
-		3B55AC8E0951F04B9C29921F6507D382 /* Pods-BioBeatsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsAppTests-dummy.m"; sourceTree = "<group>"; };
+		2EFE08FD35FF5D26EEE4E3716E6F8D1C /* Pods-BioBeatsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsApp-dummy.m"; sourceTree = "<group>"; };
+		3038844ECC6928585267EC530B93CBFC /* Pods-BioBeatsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35C9373F6BA00147650B78A5FEB5CE9D /* Pods-BioBeatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B93F2694097238455CC8492C312381E /* Pods-BioBeatsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C9734BDFFE86A719E385473C2427D30 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		3D090C1C289C929FF6A103628BA37A8E /* Pods-BioBeatsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsAppTests.modulemap"; sourceTree = "<group>"; };
+		3CC9449E15FCDE379F80506898ABC2EE /* Pods-BioBeatsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppUITests-Info.plist"; sourceTree = "<group>"; };
+		44701AD4D976A08E6B4F462BA9B27701 /* Pods-BioBeatsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsAppTests.modulemap"; sourceTree = "<group>"; };
+		46A28602DDA94B9B25CD0C4919EB8E2D /* Pods-BioBeatsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsApp-Info.plist"; sourceTree = "<group>"; };
+		4BF9F341083BC794B63326B1B1E99C00 /* Pods-BioBeatsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D716FF4D8E270E8C872C69221EFF896 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		50169E1BBB0BFF37404839565BEA7622 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		53A2690444E6B6FA35AB3B289F6AC0A8 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5429A078FD8EDB866BD2F23A777CCA20 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		55818D2FC347FAE1516AFCBC7AD82E11 /* Pods-BioBeatsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58281F72F6EB3A620A3D74D2E21D3324 /* Pods-BioBeatsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBeatsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		5912F48F003B416B8E6C7B50C0CD149C /* Pods-BioBeatsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBeatsApp-frameworks.sh"; sourceTree = "<group>"; };
 		59F18842A49C75F872ACA695231C7A04 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		5A730E67CDD5890CD2D2FB998CE5DBC0 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		5F606D18E6CC82765A413CB1ED8ED961 /* Pods-BioBeatsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsApp.modulemap"; sourceTree = "<group>"; };
 		61861584D3225CC18375B45A06D55F07 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		6473E97AAE69C9258912FF3F90D67569 /* Pods-BioBeatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6730B586E2E442CCCB1F9E86E0BFDE4C /* Pods-BioBeatsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsAppTests-dummy.m"; sourceTree = "<group>"; };
+		680504CFA6B5E60B9839D013F9F27B31 /* Pods-BioBeatsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBeatsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		6B1A4161BFE9335D6B92875D4F6B4244 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		6C6BAC155EE75AC19C2B7ACB20569A26 /* Pods-BioBeatsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71719684744340CFE5182DED93703C90 /* Pods-BioBeatsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		72DF1E587570E137EF497D60FF6E7A64 /* Pods-BioBeatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		71D56DC7D55E9F0502F6E500B11108C7 /* Pods-BioBeatsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppTests-Info.plist"; sourceTree = "<group>"; };
 		734B29E6AEBD6A377BDDB405AD9C782E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7711E5EA19CD93A93FB3A4B856A26E44 /* Pods-BioBeatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		779811AD4954172CD2183D2EF6F7733B /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		77CC1BA76962BE0DA964D0484E001190 /* Pods-BioBeatsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppUITests-Info.plist"; sourceTree = "<group>"; };
 		78FE93354788274C9D3C91762A7CA0AB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FEA3114C17E39C12411FD3E5F750EB /* Pods-BioBeatsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBeatsApp-frameworks.sh"; sourceTree = "<group>"; };
 		7C4F746DC0EC37A7F79CDE492A31AF14 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		816294F37C7A9AB327E0FF966979EA15 /* Pods_BioBeatsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BioBeatsAppUITests.framework; path = "Pods-BioBeatsAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		837EB80D8BCDC2475C3120E70469C83D /* Pods-BioBeatsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		84FDD1F737323B44EF3E8D59677515B9 /* Pods-BioBeatsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsApp-Info.plist"; sourceTree = "<group>"; };
-		8CAF5221FFCBFF628D8B6DF3399234C8 /* Pods-BioBeatsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsAppUITests.modulemap"; sourceTree = "<group>"; };
-		948C07285F2681C749A636D358D55078 /* Pods-BioBeatsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8419E1429FA1853BF941C95C43CE8AE7 /* Pods-BioBeatsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsAppUITests-dummy.m"; sourceTree = "<group>"; };
 		95FCA9433F7A492B4A7C33CBDBBB73E6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A18E0612A301B1113ED6C4879E9C511F /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		A1A0BD21CCA4B95A1264F6FC802C660C /* Pods-BioBeatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A302B68868473825521033CE548E6237 /* Pods_BioBeatsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BioBeatsAppTests.framework; path = "Pods-BioBeatsAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A31F4584E19F7CB77AE58129BC00CC50 /* Pods-BioBeatsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A45C396CDAE7EA61C83D9B394917DFEE /* Pods-BioBeatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A43694FD5F7C99BE2872398C7D790FF3 /* Pods-BioBeatsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBeatsApp.modulemap"; sourceTree = "<group>"; };
 		A7398F2186B095AA4D5801B09007FDC4 /* Pods_BioBeatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BioBeatsApp.framework; path = "Pods-BioBeatsApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A29832FF33541B93F3F3546FFA7646 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		AA82AA0299297377838B9A512CBFEDBA /* Pods-BioBeatsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsAppUITests-dummy.m"; sourceTree = "<group>"; };
 		B4FB11E0CD9C7F32500F9C77C83EE70B /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B5CB61A78B26D17332B7B56F10CAE138 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		BCFCAF488A072D52BFB9E3FF33B0C269 /* Pods-BioBeatsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C56476074C13A86579737FD1A15C42A0 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		C5AF2C992FDA55405706311C6A2BAEE9 /* Pods-BioBeatsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		C5C01874F3F0ECDD07CCA347ECAB7DEF /* Pods-BioBeatsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsAppTests-umbrella.h"; sourceTree = "<group>"; };
 		C933480AE5AB170C70EF11A7297AB607 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		D5E8D8384EA51206EEA8358E4DD2BF4A /* Pods-BioBeatsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBeatsApp-dummy.m"; sourceTree = "<group>"; };
 		D60CE2C90A5EC44EF35ACC0BA72E942A /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		D884AD457790ACF2C0FA3C186732A20B /* Pods-BioBeatsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D9860201EE0E41B60A11C37AD2B557BE /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		DCEA3C8F951F78B0C0CA4B1E9500EC0B /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		DE822FA1D97C9419070C6C4788DB6B7B /* Pods-BioBeatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE8E6E82116E7436D4DCFEAE1AD711D3 /* Pods-BioBeatsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBeatsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3D59EFE7CEEBB4B5759A1AA9DAD6D6D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		E9CB86CD7013A59B244C106C585A46CD /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		EBA402CAD352F1E6DFC161DDF5107F84 /* Pods-BioBeatsAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBeatsAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		ED2735A20CE6D41AF64CCAD817B62452 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		F885BF2C54A9B27964784BFD01001D37 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		FB5A1B44458EF90C3CAD1D5273CFA23C /* Pods-BioBeatsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBeatsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC11E3939358C356681BB4288A63097D /* Pods-BioBeatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBeatsApp.release.xcconfig"; sourceTree = "<group>"; };
 		FDCBD062613D0F1C361CCFDC33BDEC79 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		FF181B849527D47A0B2D9E85E8021961 /* Pods-BioBeatsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBeatsApp-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10B263AC103BC83AB6F9305906AA7DAA /* Frameworks */ = {
+		39B85D9F059FB42032BB891B39148259 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559511C1E036FBB821C5FC68EE7E5907 /* Foundation.framework in Frameworks */,
+				9DEF12B78B4A32CDFD8F9221939F8C16 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,21 +226,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		141C92D6F3754B6400B4F3BB9D808FF2 /* Pods-BioBeatsAppUITests */ = {
+		10D7CA41401300C8A81D528CC038DFFB /* Pods-BioBeatsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CAF5221FFCBFF628D8B6DF3399234C8 /* Pods-BioBeatsAppUITests.modulemap */,
-				6C6BAC155EE75AC19C2B7ACB20569A26 /* Pods-BioBeatsAppUITests-acknowledgements.markdown */,
-				837EB80D8BCDC2475C3120E70469C83D /* Pods-BioBeatsAppUITests-acknowledgements.plist */,
-				AA82AA0299297377838B9A512CBFEDBA /* Pods-BioBeatsAppUITests-dummy.m */,
-				58281F72F6EB3A620A3D74D2E21D3324 /* Pods-BioBeatsAppUITests-frameworks.sh */,
-				77CC1BA76962BE0DA964D0484E001190 /* Pods-BioBeatsAppUITests-Info.plist */,
-				C5AF2C992FDA55405706311C6A2BAEE9 /* Pods-BioBeatsAppUITests-umbrella.h */,
-				052152F80AF8EA834CD5B749D7A7CDD7 /* Pods-BioBeatsAppUITests.debug.xcconfig */,
-				6473E97AAE69C9258912FF3F90D67569 /* Pods-BioBeatsAppUITests.release.xcconfig */,
+				44701AD4D976A08E6B4F462BA9B27701 /* Pods-BioBeatsAppTests.modulemap */,
+				3B93F2694097238455CC8492C312381E /* Pods-BioBeatsAppTests-acknowledgements.markdown */,
+				D884AD457790ACF2C0FA3C186732A20B /* Pods-BioBeatsAppTests-acknowledgements.plist */,
+				6730B586E2E442CCCB1F9E86E0BFDE4C /* Pods-BioBeatsAppTests-dummy.m */,
+				EBA402CAD352F1E6DFC161DDF5107F84 /* Pods-BioBeatsAppTests-frameworks.sh */,
+				71D56DC7D55E9F0502F6E500B11108C7 /* Pods-BioBeatsAppTests-Info.plist */,
+				C5C01874F3F0ECDD07CCA347ECAB7DEF /* Pods-BioBeatsAppTests-umbrella.h */,
+				4BF9F341083BC794B63326B1B1E99C00 /* Pods-BioBeatsAppTests.debug.xcconfig */,
+				A1A0BD21CCA4B95A1264F6FC802C660C /* Pods-BioBeatsAppTests.release.xcconfig */,
 			);
-			name = "Pods-BioBeatsAppUITests";
-			path = "Target Support Files/Pods-BioBeatsAppUITests";
+			name = "Pods-BioBeatsAppTests";
+			path = "Target Support Files/Pods-BioBeatsAppTests";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -234,22 +249,6 @@
 				08BA87AB735A8E5A236AC7382417F8E2 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1AEB4F9773238E8D1811A3DC0729083B /* Pods-BioBeatsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D090C1C289C929FF6A103628BA37A8E /* Pods-BioBeatsAppTests.modulemap */,
-				55818D2FC347FAE1516AFCBC7AD82E11 /* Pods-BioBeatsAppTests-acknowledgements.markdown */,
-				71719684744340CFE5182DED93703C90 /* Pods-BioBeatsAppTests-acknowledgements.plist */,
-				3B55AC8E0951F04B9C29921F6507D382 /* Pods-BioBeatsAppTests-dummy.m */,
-				2DDD3AA79D250483FEE5898747332684 /* Pods-BioBeatsAppTests-Info.plist */,
-				27974B2DA7FDB57DCD30D6249D0DAC58 /* Pods-BioBeatsAppTests-umbrella.h */,
-				A31F4584E19F7CB77AE58129BC00CC50 /* Pods-BioBeatsAppTests.debug.xcconfig */,
-				72DF1E587570E137EF497D60FF6E7A64 /* Pods-BioBeatsAppTests.release.xcconfig */,
-			);
-			name = "Pods-BioBeatsAppTests";
-			path = "Target Support Files/Pods-BioBeatsAppTests";
 			sourceTree = "<group>";
 		};
 		1BA930D4000E91CA0D75A31DF8AEBA6E /* Alamofire */ = {
@@ -303,6 +302,23 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		70F8585BB6339913F0DB1A35744B71CD /* Pods-BioBeatsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08C2F17DBCBF2301097B6B0F4E5B449E /* Pods-BioBeatsAppUITests.modulemap */,
+				FB5A1B44458EF90C3CAD1D5273CFA23C /* Pods-BioBeatsAppUITests-acknowledgements.markdown */,
+				DE8E6E82116E7436D4DCFEAE1AD711D3 /* Pods-BioBeatsAppUITests-acknowledgements.plist */,
+				8419E1429FA1853BF941C95C43CE8AE7 /* Pods-BioBeatsAppUITests-dummy.m */,
+				680504CFA6B5E60B9839D013F9F27B31 /* Pods-BioBeatsAppUITests-frameworks.sh */,
+				3CC9449E15FCDE379F80506898ABC2EE /* Pods-BioBeatsAppUITests-Info.plist */,
+				19C2FFE564F802BD6C88FC2140684FB0 /* Pods-BioBeatsAppUITests-umbrella.h */,
+				35C9373F6BA00147650B78A5FEB5CE9D /* Pods-BioBeatsAppUITests.debug.xcconfig */,
+				DE822FA1D97C9419070C6C4788DB6B7B /* Pods-BioBeatsAppUITests.release.xcconfig */,
+			);
+			name = "Pods-BioBeatsAppUITests";
+			path = "Target Support Files/Pods-BioBeatsAppUITests";
+			sourceTree = "<group>";
+		};
 		9DF7405B3A942B6F901EF69E2F4CBFE7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,21 +333,14 @@
 			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
-		A10FBE56339F5D0B1349F20BC857F7D9 /* Pods-BioBeatsApp */ = {
+		B64A87AD3F006437365C3D2F49289F54 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F606D18E6CC82765A413CB1ED8ED961 /* Pods-BioBeatsApp.modulemap */,
-				BCFCAF488A072D52BFB9E3FF33B0C269 /* Pods-BioBeatsApp-acknowledgements.markdown */,
-				948C07285F2681C749A636D358D55078 /* Pods-BioBeatsApp-acknowledgements.plist */,
-				D5E8D8384EA51206EEA8358E4DD2BF4A /* Pods-BioBeatsApp-dummy.m */,
-				5912F48F003B416B8E6C7B50C0CD149C /* Pods-BioBeatsApp-frameworks.sh */,
-				84FDD1F737323B44EF3E8D59677515B9 /* Pods-BioBeatsApp-Info.plist */,
-				FF181B849527D47A0B2D9E85E8021961 /* Pods-BioBeatsApp-umbrella.h */,
-				A45C396CDAE7EA61C83D9B394917DFEE /* Pods-BioBeatsApp.debug.xcconfig */,
-				1A4507432EBFD2967D0E6170AAF0A5A8 /* Pods-BioBeatsApp.release.xcconfig */,
+				C1537C64C999A27744A98473C424D9EE /* Pods-BioBeatsApp */,
+				10D7CA41401300C8A81D528CC038DFFB /* Pods-BioBeatsAppTests */,
+				70F8585BB6339913F0DB1A35744B71CD /* Pods-BioBeatsAppUITests */,
 			);
-			name = "Pods-BioBeatsApp";
-			path = "Target Support Files/Pods-BioBeatsApp";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B8AB0868BD0F115D4486674068F14B90 /* Products */ = {
@@ -344,6 +353,23 @@
 				53A2690444E6B6FA35AB3B289F6AC0A8 /* Reachability.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C1537C64C999A27744A98473C424D9EE /* Pods-BioBeatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A43694FD5F7C99BE2872398C7D790FF3 /* Pods-BioBeatsApp.modulemap */,
+				3038844ECC6928585267EC530B93CBFC /* Pods-BioBeatsApp-acknowledgements.markdown */,
+				20199397DF96CE07D6AC88C19BD782A0 /* Pods-BioBeatsApp-acknowledgements.plist */,
+				2EFE08FD35FF5D26EEE4E3716E6F8D1C /* Pods-BioBeatsApp-dummy.m */,
+				78FEA3114C17E39C12411FD3E5F750EB /* Pods-BioBeatsApp-frameworks.sh */,
+				46A28602DDA94B9B25CD0C4919EB8E2D /* Pods-BioBeatsApp-Info.plist */,
+				18A17101CDAD74F43A268EAF1D438EBE /* Pods-BioBeatsApp-umbrella.h */,
+				7711E5EA19CD93A93FB3A4B856A26E44 /* Pods-BioBeatsApp.debug.xcconfig */,
+				FC11E3939358C356681BB4288A63097D /* Pods-BioBeatsApp.release.xcconfig */,
+			);
+			name = "Pods-BioBeatsApp";
+			path = "Target Support Files/Pods-BioBeatsApp";
 			sourceTree = "<group>";
 		};
 		CA5C34D1D67E101FF6E358141C4F83DE /* Pods */ = {
@@ -362,18 +388,8 @@
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				CA5C34D1D67E101FF6E358141C4F83DE /* Pods */,
 				B8AB0868BD0F115D4486674068F14B90 /* Products */,
-				F8F11151AA3458BAA8679FA893697377 /* Targets Support Files */,
+				B64A87AD3F006437365C3D2F49289F54 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		F8F11151AA3458BAA8679FA893697377 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A10FBE56339F5D0B1349F20BC857F7D9 /* Pods-BioBeatsApp */,
-				1AEB4F9773238E8D1811A3DC0729083B /* Pods-BioBeatsAppTests */,
-				141C92D6F3754B6400B4F3BB9D808FF2 /* Pods-BioBeatsAppUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +401,14 @@
 			files = (
 				C5B8FA66DCD4223FBDB42012CC0F829D /* Reachability-umbrella.h in Headers */,
 				FA1DC3CB7931D1019D54ACC25466A563 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186AF6435E9C36CE683488DF0150E966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F3250D13E12621648513FAC9141CCC /* Pods-BioBeatsAppTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,14 +428,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54107E5848EB706E6CB73CF2CDBAF4AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE6DFC3A9244E5369B99055C74EA67A5 /* Pods-BioBeatsAppTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A2DF663247D0B2260CD68999FB6B765 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,25 +439,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		031880A6F97DDD316E4BB3F59F0BCF47 /* Pods-BioBeatsAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8327D016886FB17AD48F9D989D8D124A /* Build configuration list for PBXNativeTarget "Pods-BioBeatsAppTests" */;
-			buildPhases = (
-				54107E5848EB706E6CB73CF2CDBAF4AF /* Headers */,
-				50A43670534869540DF8F69A81922C75 /* Sources */,
-				10B263AC103BC83AB6F9305906AA7DAA /* Frameworks */,
-				DE9FD0B74264D6B782F62C3C3BEB363F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD90E6E688DFA5C776F7BBCD1A408A34 /* PBXTargetDependency */,
-			);
-			name = "Pods-BioBeatsAppTests";
-			productName = "Pods-BioBeatsAppTests";
-			productReference = A302B68868473825521033CE548E6237 /* Pods_BioBeatsAppTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -498,6 +495,27 @@
 			productReference = 53A2690444E6B6FA35AB3B289F6AC0A8 /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DBD9264FF2EF22383886412865DA830A /* Pods-BioBeatsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1E683E2ED91D5FC36F057A9EAFFB22 /* Build configuration list for PBXNativeTarget "Pods-BioBeatsAppTests" */;
+			buildPhases = (
+				186AF6435E9C36CE683488DF0150E966 /* Headers */,
+				86ECDC7B1C596FD573AB79828409DD3A /* Sources */,
+				39B85D9F059FB42032BB891B39148259 /* Frameworks */,
+				98CC68DD5826651538903096E9D9F58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1178EA87DE9C9507AD5D1B366484B0 /* PBXTargetDependency */,
+				9C51B6CD190892773BB4217633C86B55 /* PBXTargetDependency */,
+				70F1A3CB94BA744BC376BE2FAB7E9766 /* PBXTargetDependency */,
+			);
+			name = "Pods-BioBeatsAppTests";
+			productName = "Pods-BioBeatsAppTests";
+			productReference = A302B68868473825521033CE548E6237 /* Pods_BioBeatsAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F5A751B9E16066051D2444C489D1A3DB /* Pods-BioBeatsAppUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20241D0DC8A340EBD78F43EE8883516F /* Build configuration list for PBXNativeTarget "Pods-BioBeatsAppUITests" */;
@@ -542,7 +560,7 @@
 			targets = (
 				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
 				373E7958D28FF3D70305CB94E3DB2FAB /* Pods-BioBeatsApp */,
-				031880A6F97DDD316E4BB3F59F0BCF47 /* Pods-BioBeatsAppTests */,
+				DBD9264FF2EF22383886412865DA830A /* Pods-BioBeatsAppTests */,
 				F5A751B9E16066051D2444C489D1A3DB /* Pods-BioBeatsAppUITests */,
 				42F1295F9971E57470FF114B2D021F91 /* Reachability */,
 			);
@@ -578,7 +596,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE9FD0B74264D6B782F62C3C3BEB363F /* Resources */ = {
+		98CC68DD5826651538903096E9D9F58D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -588,14 +606,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50A43670534869540DF8F69A81922C75 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				933BDF472E04EC87E9BA171E0A1AE176 /* Pods-BioBeatsAppTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66CC738BA8C36B9AB28B489A11AFEDF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -610,6 +620,14 @@
 			files = (
 				BD309E5569C9751F3456A96C85092614 /* Reachability-dummy.m in Sources */,
 				8261276D95307EE7E9D4CC5D4BB45D80 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86ECDC7B1C596FD573AB79828409DD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A14E87618F6E12333F92CD38BE01DD /* Pods-BioBeatsAppTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,24 +691,74 @@
 			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
 			targetProxy = E23A46C8BA475E7190FAAB0C646CFC2C /* PBXContainerItemProxy */;
 		};
+		70F1A3CB94BA744BC376BE2FAB7E9766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 42F1295F9971E57470FF114B2D021F91 /* Reachability */;
+			targetProxy = 3726838F4D7126A9CA29FD861DEFFC7D /* PBXContainerItemProxy */;
+		};
+		9C51B6CD190892773BB4217633C86B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BioBeatsApp";
+			target = 373E7958D28FF3D70305CB94E3DB2FAB /* Pods-BioBeatsApp */;
+			targetProxy = 10A47A180CECE778BFDD8F3E37992770 /* PBXContainerItemProxy */;
+		};
 		AFCF54A46AA15AB28B0BAA595439EB57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
 			targetProxy = AE84EBADE518587CDCEC6771C97475F8 /* PBXContainerItemProxy */;
 		};
-		FD90E6E688DFA5C776F7BBCD1A408A34 /* PBXTargetDependency */ = {
+		EC1178EA87DE9C9507AD5D1B366484B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-BioBeatsApp";
-			target = 373E7958D28FF3D70305CB94E3DB2FAB /* Pods-BioBeatsApp */;
-			targetProxy = 9388BB666C99F5799B449B4ADEE781A4 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
+			targetProxy = 889184E8B2DE9596C7518C66C8692A28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0F9127A99A368BF6F980A0448E5E1A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF9F341083BC794B63326B1B1E99C00 /* Pods-BioBeatsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		304A5E26474CA79997E8544D699971F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A4507432EBFD2967D0E6170AAF0A5A8 /* Pods-BioBeatsApp.release.xcconfig */;
+			baseConfigurationReference = FC11E3939358C356681BB4288A63097D /* Pods-BioBeatsApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -729,7 +797,7 @@
 		};
 		49E36EF827CE32BE72F3F4B8593A653B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 052152F80AF8EA834CD5B749D7A7CDD7 /* Pods-BioBeatsAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 35C9373F6BA00147650B78A5FEB5CE9D /* Pods-BioBeatsAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -799,83 +867,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5DDFF4FD1D430FEC77FF8F6AD05A4E78 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A31F4584E19F7CB77AE58129BC00CC50 /* Pods-BioBeatsAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		80A722009AA7506CBF2BAA0CD6753353 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72DF1E587570E137EF497D60FF6E7A64 /* Pods-BioBeatsAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -975,7 +966,7 @@
 		};
 		917B221348E52442916ADEF4F2FD06F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6473E97AAE69C9258912FF3F90D67569 /* Pods-BioBeatsAppUITests.release.xcconfig */;
+			baseConfigurationReference = DE822FA1D97C9419070C6C4788DB6B7B /* Pods-BioBeatsAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1048,9 +1039,48 @@
 			};
 			name = Release;
 		};
+		99547727A11D85330BE2E3B319FC52D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A0BD21CCA4B95A1264F6FC802C660C /* Pods-BioBeatsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A7D2F8BE7891FDE6550C67C89DA6C112 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A45C396CDAE7EA61C83D9B394917DFEE /* Pods-BioBeatsApp.debug.xcconfig */;
+			baseConfigurationReference = 7711E5EA19CD93A93FB3A4B856A26E44 /* Pods-BioBeatsApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1224,11 +1254,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8327D016886FB17AD48F9D989D8D124A /* Build configuration list for PBXNativeTarget "Pods-BioBeatsAppTests" */ = {
+		BD1E683E2ED91D5FC36F057A9EAFFB22 /* Build configuration list for PBXNativeTarget "Pods-BioBeatsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DDFF4FD1D430FEC77FF8F6AD05A4E78 /* Debug */,
-				80A722009AA7506CBF2BAA0CD6753353 /* Release */,
+				0F9127A99A368BF6F980A0448E5E1A05 /* Debug */,
+				99547727A11D85330BE2E3B319FC52D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

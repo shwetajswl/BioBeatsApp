@@ -19,9 +19,7 @@ class MovieListViewController: UITableViewController, UISearchBarDelegate {
     private var searchBar = UISearchBar()
     private var activityIndicator = UIActivityIndicatorView()
     
-    private let apiManager = {
-        APIManager.Service()
-    }()
+    private let apiManager = APIManager()
     
     private let defaultSearchString = {
         return "Man"
@@ -31,8 +29,6 @@ class MovieListViewController: UITableViewController, UISearchBarDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        loadMovies(text: defaultSearchString)
     }
     
     override func viewDidLoad() {
@@ -40,6 +36,8 @@ class MovieListViewController: UITableViewController, UISearchBarDelegate {
 
         setupForUI()
         setupAccessibilityLabels()
+  
+        loadMovies(text: defaultSearchString)
     }
 
 }
@@ -99,11 +97,11 @@ extension MovieListViewController {
 
 extension MovieListViewController: UISearchControllerDelegate {
     
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+    internal func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         loadMovies(text: defaultSearchString)
     }
     
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    internal func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text?.count == 0 {
             resultSearchController.isActive = false
             searchBarCancelButtonClicked(searchBar)
@@ -119,8 +117,12 @@ extension MovieListViewController: UISearchControllerDelegate {
 extension MovieListViewController: UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
+     
         guard searchController.searchBar.text!.count > 0 else { return }
-        loadMovies(text: searchController.searchBar.text!)
+    
+        if resultSearchController.isActive {
+            loadMovies(text: searchController.searchBar.text!)
+        }
     }
 }
 
@@ -167,7 +169,6 @@ extension MovieListViewController {
             })
             
         } else {
-            
             stopIndicator(activityIndicator: self.activityIndicator)
             showAlert(msg: "Please check your internet connection!")
         }

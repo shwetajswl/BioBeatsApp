@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2156A6314496E1CFBCE63DBE /* Pods_BioBeatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557829F3EC9EF50F6AAFB3C2 /* Pods_BioBeatsApp.framework */; };
+		4E0D3D3A2292B6290036C6D6 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D392292B6290036C6D6 /* BaseTestCase.swift */; };
+		4E0D3D522292B6D70036C6D6 /* MoviesListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D512292B6D70036C6D6 /* MoviesListTests.swift */; };
+		4E0D3D552292B92D0036C6D6 /* MovieDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D542292B92D0036C6D6 /* MovieDetailsTests.swift */; };
 		4E27040B2282E6600001AEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27040A2282E6600001AEB7 /* AppDelegate.swift */; };
 		4E2704102282E6600001AEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E27040E2282E6600001AEB7 /* Main.storyboard */; };
 		4E2704122282E6630001AEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2704112282E6630001AEB7 /* Assets.xcassets */; };
@@ -17,9 +20,6 @@
 		4E27044C2282FE670001AEB7 /* MovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27044B2282FE670001AEB7 /* MovieListModel.swift */; };
 		4E84F90C2288C9CF0069A33E /* MovieDetailViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F90B2288C9CF0069A33E /* MovieDetailViewController+Delegate.swift */; };
 		4E84F90F2288D2D30069A33E /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F90E2288D2D30069A33E /* Accessibility.swift */; };
-		4E84F9122288DA400069A33E /* MoviesListUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9112288DA400069A33E /* MoviesListUITest.swift */; };
-		4E84F9152288DAD40069A33E /* BaseUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F9142288DAD40069A33E /* BaseUITestCase.swift */; };
-		4E84F9162288DD040069A33E /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F90E2288D2D30069A33E /* Accessibility.swift */; };
 		4E87E419228305DA0080D172 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E418228305DA0080D172 /* Endpoint.swift */; };
 		4E87E41D228389420080D172 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E41C228389420080D172 /* MovieListCell.swift */; };
 		4E87E4222283916A0080D172 /* UIImageView+AsyncLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E4212283916A0080D172 /* UIImageView+AsyncLoading.swift */; };
@@ -27,21 +27,23 @@
 		4E87E42B228413900080D172 /* MovieDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E42A228413900080D172 /* MovieDetailsCell.swift */; };
 		4E87E42D228413B90080D172 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E42C228413B90080D172 /* MovieDetailViewController.swift */; };
 		4E87E4312284CE120080D172 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E4302284CE120080D172 /* UIViewController+Alert.swift */; };
-		4EB7E744228BF84B00ACA180 /* MovieDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E743228BF84B00ACA180 /* MovieDetailUITests.swift */; };
-		4ED295C8228BFCDA0058FB21 /* BioBeatsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED295C7228BFCDA0058FB21 /* BioBeatsAppTests.swift */; };
-		5A9D79EAE7250C78207A0F28 /* Pods_BioBeatsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF25D8B1ACBD28084507A289 /* Pods_BioBeatsAppUITests.framework */; };
-		7442613614E9F476DD089FAD /* Pods_BioBeatsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D79A96AB369299FBBF0898 /* Pods_BioBeatsAppTests.framework */; };
+		4EB454832292CACE0039FEE7 /* BaseUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D5F2292BC490036C6D6 /* BaseUITestCase.swift */; };
+		4EB454842292CAD40039FEE7 /* MoviesListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D612292BC5A0036C6D6 /* MoviesListUITests.swift */; };
+		4EB454852292CADC0039FEE7 /* MovieDetailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D3D5D2292BBFB0036C6D6 /* MovieDetailsUITests.swift */; };
+		4EC9B78C2292CDAB000AA8C8 /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E84F90E2288D2D30069A33E /* Accessibility.swift */; };
+		7AF2BDAF459590F9000AF216 /* Pods_BioBeatsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D79A96AB369299FBBF0898 /* Pods_BioBeatsAppTests.framework */; };
+		EF008C8879E16AEBF53F103A /* Pods_BioBeatsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF25D8B1ACBD28084507A289 /* Pods_BioBeatsAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E0F2644228EE212005B9A82 /* PBXContainerItemProxy */ = {
+		4E0D3D3C2292B6290036C6D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E2703FF2282E6600001AEB7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E2704062282E6600001AEB7;
 			remoteInfo = BioBeatsApp;
 		};
-		4E27041C2282E6630001AEB7 /* PBXContainerItemProxy */ = {
+		4E0D3D4A2292B6520036C6D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E2703FF2282E6600001AEB7 /* Project object */;
 			proxyType = 1;
@@ -54,23 +56,27 @@
 		13EBF7570F63017E11102D17 /* Pods-BioBeatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBeatsApp.debug.xcconfig"; path = "Target Support Files/Pods-BioBeatsApp/Pods-BioBeatsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		34D79A96AB369299FBBF0898 /* Pods_BioBeatsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBeatsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		496CAE48F02D8EC27734A72E /* Pods-BioBeatsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBeatsAppTests.release.xcconfig"; path = "Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E0D3D372292B6290036C6D6 /* BioBeatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBeatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D3D392292B6290036C6D6 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		4E0D3D3B2292B6290036C6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0D3D452292B6520036C6D6 /* BioBeatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBeatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D3D492292B6520036C6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0D3D512292B6D70036C6D6 /* MoviesListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListTests.swift; sourceTree = "<group>"; };
+		4E0D3D542292B92D0036C6D6 /* MovieDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTests.swift; sourceTree = "<group>"; };
+		4E0D3D5D2292BBFB0036C6D6 /* MovieDetailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsUITests.swift; sourceTree = "<group>"; };
+		4E0D3D5F2292BC490036C6D6 /* BaseUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITestCase.swift; sourceTree = "<group>"; };
+		4E0D3D612292BC5A0036C6D6 /* MoviesListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListUITests.swift; sourceTree = "<group>"; };
 		4E2704072282E6600001AEB7 /* BioBeatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBeatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E27040A2282E6600001AEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E27040F2282E6600001AEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E2704112282E6630001AEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E2704142282E6630001AEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E2704162282E6630001AEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E27041B2282E6630001AEB7 /* BioBeatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBeatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E2704212282E6630001AEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E2704262282E6630001AEB7 /* BioBeatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBeatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E27042C2282E6630001AEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2704432282FA180001AEB7 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		4E2704492282FDE70001AEB7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		4E27044B2282FE670001AEB7 /* MovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListModel.swift; sourceTree = "<group>"; };
 		4E84F90B2288C9CF0069A33E /* MovieDetailViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieDetailViewController+Delegate.swift"; sourceTree = "<group>"; };
 		4E84F90E2288D2D30069A33E /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
-		4E84F9112288DA400069A33E /* MoviesListUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListUITest.swift; sourceTree = "<group>"; };
-		4E84F9142288DAD40069A33E /* BaseUITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITestCase.swift; sourceTree = "<group>"; };
 		4E87E418228305DA0080D172 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		4E87E41C228389420080D172 /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
 		4E87E4212283916A0080D172 /* UIImageView+AsyncLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+AsyncLoading.swift"; sourceTree = "<group>"; };
@@ -78,8 +84,6 @@
 		4E87E42A228413900080D172 /* MovieDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsCell.swift; sourceTree = "<group>"; };
 		4E87E42C228413B90080D172 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		4E87E4302284CE120080D172 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
-		4EB7E743228BF84B00ACA180 /* MovieDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailUITests.swift; sourceTree = "<group>"; };
-		4ED295C7228BFCDA0058FB21 /* BioBeatsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBeatsAppTests.swift; sourceTree = "<group>"; };
 		557829F3EC9EF50F6AAFB3C2 /* Pods_BioBeatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBeatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BEBC798996EE24DC4569298 /* Pods-BioBeatsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBeatsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8484169446BA98B9E9550839 /* Pods-BioBeatsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBeatsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,27 +93,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E0D3D342292B6290036C6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2BDAF459590F9000AF216 /* Pods_BioBeatsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D3D422292B6520036C6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF008C8879E16AEBF53F103A /* Pods_BioBeatsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E2704042282E6600001AEB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2156A6314496E1CFBCE63DBE /* Pods_BioBeatsApp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2704182282E6630001AEB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7442613614E9F476DD089FAD /* Pods_BioBeatsAppTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2704232282E6630001AEB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9D79EAE7250C78207A0F28 /* Pods_BioBeatsAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +133,108 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4E0D3D382292B6290036C6D6 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D592292BAC50036C6D6 /* Classes */,
+				4E0D3D5A2292BAD00036C6D6 /* Supporting Files */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
+		4E0D3D462292B6520036C6D6 /* UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D5B2292BAF40036C6D6 /* Classes */,
+				4E0D3D5C2292BAFD0036C6D6 /* Supporting Files */,
+			);
+			path = "UI Tests";
+			sourceTree = "<group>";
+		};
+		4E0D3D4F2292B6700036C6D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D392292B6290036C6D6 /* BaseTestCase.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4E0D3D502292B6B90036C6D6 /* Movies List */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D512292B6D70036C6D6 /* MoviesListTests.swift */,
+			);
+			path = "Movies List";
+			sourceTree = "<group>";
+		};
+		4E0D3D532292B9180036C6D6 /* Movie Details */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D542292B92D0036C6D6 /* MovieDetailsTests.swift */,
+			);
+			path = "Movie Details";
+			sourceTree = "<group>";
+		};
+		4E0D3D562292B96A0036C6D6 /* Movie Details */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D5D2292BBFB0036C6D6 /* MovieDetailsUITests.swift */,
+			);
+			path = "Movie Details";
+			sourceTree = "<group>";
+		};
+		4E0D3D572292B96E0036C6D6 /* Movies List */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D612292BC5A0036C6D6 /* MoviesListUITests.swift */,
+			);
+			path = "Movies List";
+			sourceTree = "<group>";
+		};
+		4E0D3D582292B9700036C6D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D5F2292BC490036C6D6 /* BaseUITestCase.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4E0D3D592292BAC50036C6D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D502292B6B90036C6D6 /* Movies List */,
+				4E0D3D532292B9180036C6D6 /* Movie Details */,
+				4E0D3D4F2292B6700036C6D6 /* Shared */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E0D3D5A2292BAD00036C6D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D3B2292B6290036C6D6 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E0D3D5B2292BAF40036C6D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D572292B96E0036C6D6 /* Movies List */,
+				4E0D3D562292B96A0036C6D6 /* Movie Details */,
+				4E0D3D582292B9700036C6D6 /* Shared */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E0D3D5C2292BAFD0036C6D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D3D492292B6520036C6D6 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4E2703FE2282E6600001AEB7 = {
 			isa = PBXGroup;
 			children = (
@@ -144,8 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				4E2704072282E6600001AEB7 /* BioBeatsApp.app */,
-				4E27041B2282E6630001AEB7 /* BioBeatsAppTests.xctest */,
-				4E2704262282E6630001AEB7 /* BioBeatsAppUITests.xctest */,
+				4E0D3D372292B6290036C6D6 /* BioBeatsAppTests.xctest */,
+				4E0D3D452292B6520036C6D6 /* BioBeatsAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,31 +266,11 @@
 			path = BioBeatsApp;
 			sourceTree = "<group>";
 		};
-		4E27041E2282E6630001AEB7 /* BioBeatsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E2704212282E6630001AEB7 /* Info.plist */,
-				4ED295C7228BFCDA0058FB21 /* BioBeatsAppTests.swift */,
-			);
-			path = BioBeatsAppTests;
-			sourceTree = "<group>";
-		};
-		4E2704292282E6630001AEB7 /* BioBeatsAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4E84F9132288DAAA0069A33E /* Base */,
-				4E84F9102288DA0C0069A33E /* Movies List */,
-				4EB7E742228BF83500ACA180 /* Movie Details */,
-				4E27042C2282E6630001AEB7 /* Info.plist */,
-			);
-			path = BioBeatsAppUITests;
-			sourceTree = "<group>";
-		};
 		4E2704382282E8370001AEB7 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
-				4E27041E2282E6630001AEB7 /* BioBeatsAppTests */,
-				4E2704292282E6630001AEB7 /* BioBeatsAppUITests */,
+				4E0D3D462292B6520036C6D6 /* UI Tests */,
+				4E0D3D382292B6290036C6D6 /* Unit Tests */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -297,22 +383,6 @@
 			path = Misc;
 			sourceTree = "<group>";
 		};
-		4E84F9102288DA0C0069A33E /* Movies List */ = {
-			isa = PBXGroup;
-			children = (
-				4E84F9112288DA400069A33E /* MoviesListUITest.swift */,
-			);
-			path = "Movies List";
-			sourceTree = "<group>";
-		};
-		4E84F9132288DAAA0069A33E /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				4E84F9142288DAD40069A33E /* BaseUITestCase.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		4E87E41E228391060080D172 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,14 +417,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4EB7E742228BF83500ACA180 /* Movie Details */ = {
-			isa = PBXGroup;
-			children = (
-				4EB7E743228BF84B00ACA180 /* MovieDetailUITests.swift */,
-			);
-			path = "Movie Details";
-			sourceTree = "<group>";
-		};
 		B5ADE527DE41CDCCDB51B1D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +430,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E0D3D362292B6290036C6D6 /* BioBeatsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0D3D3E2292B6290036C6D6 /* Build configuration list for PBXNativeTarget "BioBeatsAppTests" */;
+			buildPhases = (
+				2093812373AAD88E6860FED2 /* [CP] Check Pods Manifest.lock */,
+				4E0D3D332292B6290036C6D6 /* Sources */,
+				4E0D3D342292B6290036C6D6 /* Frameworks */,
+				4E0D3D352292B6290036C6D6 /* Resources */,
+				F698A1D3BA501BD73D2C8146 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0D3D3D2292B6290036C6D6 /* PBXTargetDependency */,
+			);
+			name = BioBeatsAppTests;
+			productName = BioBeatsAppTests;
+			productReference = 4E0D3D372292B6290036C6D6 /* BioBeatsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E0D3D442292B6520036C6D6 /* BioBeatsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0D3D4C2292B6520036C6D6 /* Build configuration list for PBXNativeTarget "BioBeatsAppUITests" */;
+			buildPhases = (
+				E2CFD19CCCE2C0E185C79341 /* [CP] Check Pods Manifest.lock */,
+				4E0D3D412292B6520036C6D6 /* Sources */,
+				4E0D3D422292B6520036C6D6 /* Frameworks */,
+				4E0D3D432292B6520036C6D6 /* Resources */,
+				5E6093312593B722AD1DCEDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0D3D4B2292B6520036C6D6 /* PBXTargetDependency */,
+			);
+			name = BioBeatsAppUITests;
+			productName = BioBeatsAppUITests;
+			productReference = 4E0D3D452292B6520036C6D6 /* BioBeatsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4E2704062282E6600001AEB7 /* BioBeatsApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E27042F2282E6630001AEB7 /* Build configuration list for PBXNativeTarget "BioBeatsApp" */;
@@ -387,66 +489,28 @@
 			productReference = 4E2704072282E6600001AEB7 /* BioBeatsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E27041A2282E6630001AEB7 /* BioBeatsAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E2704322282E6630001AEB7 /* Build configuration list for PBXNativeTarget "BioBeatsAppTests" */;
-			buildPhases = (
-				47DC9EF7BA0EF2C3AAD5E45B /* [CP] Check Pods Manifest.lock */,
-				4E2704172282E6630001AEB7 /* Sources */,
-				4E2704182282E6630001AEB7 /* Frameworks */,
-				4E2704192282E6630001AEB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E27041D2282E6630001AEB7 /* PBXTargetDependency */,
-			);
-			name = BioBeatsAppTests;
-			productName = BioBeatsAppTests;
-			productReference = 4E27041B2282E6630001AEB7 /* BioBeatsAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4E2704252282E6630001AEB7 /* BioBeatsAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E2704352282E6630001AEB7 /* Build configuration list for PBXNativeTarget "BioBeatsAppUITests" */;
-			buildPhases = (
-				86F2538D78C0D8F944DACCAF /* [CP] Check Pods Manifest.lock */,
-				4E2704222282E6630001AEB7 /* Sources */,
-				4E2704232282E6630001AEB7 /* Frameworks */,
-				4E2704242282E6630001AEB7 /* Resources */,
-				D2776BAA8FBC0A73A4276239 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E0F2645228EE212005B9A82 /* PBXTargetDependency */,
-			);
-			name = BioBeatsAppUITests;
-			productName = BioBeatsAppUITests;
-			productReference = 4E2704262282E6630001AEB7 /* BioBeatsAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4E2703FF2282E6600001AEB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Sweta Jaiswal";
 				TargetAttributes = {
-					4E2704062282E6600001AEB7 = {
+					4E0D3D362292B6290036C6D6 = {
 						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 4E2704062282E6600001AEB7;
 					};
-					4E27041A2282E6630001AEB7 = {
+					4E0D3D442292B6520036C6D6 = {
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
 						TestTargetID = 4E2704062282E6600001AEB7;
 					};
-					4E2704252282E6630001AEB7 = {
+					4E2704062282E6600001AEB7 = {
 						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 4E2704062282E6600001AEB7;
 					};
 				};
 			};
@@ -464,13 +528,27 @@
 			projectRoot = "";
 			targets = (
 				4E2704062282E6600001AEB7 /* BioBeatsApp */,
-				4E27041A2282E6630001AEB7 /* BioBeatsAppTests */,
-				4E2704252282E6630001AEB7 /* BioBeatsAppUITests */,
+				4E0D3D362292B6290036C6D6 /* BioBeatsAppTests */,
+				4E0D3D442292B6520036C6D6 /* BioBeatsAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E0D3D352292B6290036C6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D3D432292B6520036C6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E2704052282E6600001AEB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,20 +556,6 @@
 				4E2704152282E6630001AEB7 /* LaunchScreen.storyboard in Resources */,
 				4E2704122282E6630001AEB7 /* Assets.xcassets in Resources */,
 				4E2704102282E6600001AEB7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2704192282E6630001AEB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2704242282E6630001AEB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +584,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47DC9EF7BA0EF2C3AAD5E45B /* [CP] Check Pods Manifest.lock */ = {
+		2093812373AAD88E6860FED2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,7 +606,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86F2538D78C0D8F944DACCAF /* [CP] Check Pods Manifest.lock */ = {
+		5E6093312593B722AD1DCEDD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -550,18 +614,20 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BioBeatsAppUITests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CBCAB18B7006E0993CD1AB5B /* [CP] Embed Pods Frameworks */ = {
@@ -588,7 +654,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBeatsApp/Pods-BioBeatsApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2776BAA8FBC0A73A4276239 /* [CP] Embed Pods Frameworks */ = {
+		E2CFD19CCCE2C0E185C79341 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,7 +662,29 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests-frameworks.sh",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BioBeatsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F698A1D3BA501BD73D2C8146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 			);
@@ -609,12 +697,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppUITests/Pods-BioBeatsAppUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBeatsAppTests/Pods-BioBeatsAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E0D3D332292B6290036C6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D3D522292B6D70036C6D6 /* MoviesListTests.swift in Sources */,
+				4E0D3D552292B92D0036C6D6 /* MovieDetailsTests.swift in Sources */,
+				4E0D3D3A2292B6290036C6D6 /* BaseTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D3D412292B6520036C6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB454852292CADC0039FEE7 /* MovieDetailsUITests.swift in Sources */,
+				4EB454842292CAD40039FEE7 /* MoviesListUITests.swift in Sources */,
+				4EC9B78C2292CDAB000AA8C8 /* Accessibility.swift in Sources */,
+				4EB454832292CACE0039FEE7 /* BaseUITestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E2704032282E6600001AEB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -635,37 +744,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E2704172282E6630001AEB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED295C8228BFCDA0058FB21 /* BioBeatsAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E2704222282E6630001AEB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E84F9152288DAD40069A33E /* BaseUITestCase.swift in Sources */,
-				4E84F9162288DD040069A33E /* Accessibility.swift in Sources */,
-				4E84F9122288DA400069A33E /* MoviesListUITest.swift in Sources */,
-				4EB7E744228BF84B00ACA180 /* MovieDetailUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E0F2645228EE212005B9A82 /* PBXTargetDependency */ = {
+		4E0D3D3D2292B6290036C6D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4E2704062282E6600001AEB7 /* BioBeatsApp */;
-			targetProxy = 4E0F2644228EE212005B9A82 /* PBXContainerItemProxy */;
+			targetProxy = 4E0D3D3C2292B6290036C6D6 /* PBXContainerItemProxy */;
 		};
-		4E27041D2282E6630001AEB7 /* PBXTargetDependency */ = {
+		4E0D3D4B2292B6520036C6D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4E2704062282E6600001AEB7 /* BioBeatsApp */;
-			targetProxy = 4E27041C2282E6630001AEB7 /* PBXContainerItemProxy */;
+			targetProxy = 4E0D3D4A2292B6520036C6D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -689,6 +779,87 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4E0D3D3F2292B6290036C6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD309DB7B836A509C653BEF /* Pods-BioBeatsAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/UI Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppTests;
+				PRODUCT_NAME = BioBeatsAppTests;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBeatsApp.app/BioBeatsApp";
+			};
+			name = Debug;
+		};
+		4E0D3D402292B6290036C6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496CAE48F02D8EC27734A72E /* Pods-BioBeatsAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/UI Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppTests;
+				PRODUCT_NAME = BioBeatsAppTests;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBeatsApp.app/BioBeatsApp";
+			};
+			name = Release;
+		};
+		4E0D3D4D2292B6520036C6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8484169446BA98B9E9550839 /* Pods-BioBeatsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/Unit Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioBeatsApp;
+			};
+			name = Debug;
+		};
+		4E0D3D4E2292B6520036C6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEBC798996EE24DC4569298 /* Pods-BioBeatsAppUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/Unit Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioBeatsApp;
+			};
+			name = Release;
+		};
 		4E27042D2282E6630001AEB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -818,6 +989,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -838,6 +1010,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -845,98 +1018,27 @@
 			};
 			name = Release;
 		};
-		4E2704332282E6630001AEB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAD309DB7B836A509C653BEF /* Pods-BioBeatsAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = /Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/BioBeatsAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "";
-			};
-			name = Debug;
-		};
-		4E2704342282E6630001AEB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496CAE48F02D8EC27734A72E /* Pods-BioBeatsAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = /Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/BioBeatsAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "";
-			};
-			name = Release;
-		};
-		4E2704362282E6630001AEB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8484169446BA98B9E9550839 /* Pods-BioBeatsAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = /Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/BioBeatsAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "";
-				TEST_TARGET_NAME = BioBeatsApp;
-			};
-			name = Debug;
-		};
-		4E2704372282E6630001AEB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BEBC798996EE24DC4569298 /* Pods-BioBeatsAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = /Users/swetajaiswal/Desktop/Extra/Practice/BioBeatsApp/Testing/BioBeatsAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.BioBeatsAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "";
-				TEST_TARGET_NAME = BioBeatsApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E0D3D3E2292B6290036C6D6 /* Build configuration list for PBXNativeTarget "BioBeatsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D3D3F2292B6290036C6D6 /* Debug */,
+				4E0D3D402292B6290036C6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0D3D4C2292B6520036C6D6 /* Build configuration list for PBXNativeTarget "BioBeatsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D3D4D2292B6520036C6D6 /* Debug */,
+				4E0D3D4E2292B6520036C6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4E2704022282E6600001AEB7 /* Build configuration list for PBXProject "BioBeatsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -951,24 +1053,6 @@
 			buildConfigurations = (
 				4E2704302282E6630001AEB7 /* Debug */,
 				4E2704312282E6630001AEB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E2704322282E6630001AEB7 /* Build configuration list for PBXNativeTarget "BioBeatsAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E2704332282E6630001AEB7 /* Debug */,
-				4E2704342282E6630001AEB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E2704352282E6630001AEB7 /* Build configuration list for PBXNativeTarget "BioBeatsAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E2704362282E6630001AEB7 /* Debug */,
-				4E2704372282E6630001AEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

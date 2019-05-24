@@ -2,7 +2,7 @@
 //  BaseUITestCase.swift
 //  BioBeatsAppUITests
 //
-//  Created by Sweta Jaiswal on 12/05/2019.
+//  Created by Sweta Jaiswal on 20/05/2019.
 //  Copyright © 2019 Sweta Jaiswal. All rights reserved.
 //
 
@@ -12,22 +12,20 @@ class BaseUITestCase: XCTestCase {
     
     let app = XCUIApplication()
     
+
     override func setUp() {
         super.setUp()
+        
+        continueAfterFailure = false
+        app.launch()
     }
 
+    
     override func tearDown() {
         super.tearDown()
     }
 
     
-    //MARK: - Launch the app
-    
-    func launchApp() {
-        
-        app.launch()
-    }
-
     
     //MARK: - Check the visibility of XCUIElement
     

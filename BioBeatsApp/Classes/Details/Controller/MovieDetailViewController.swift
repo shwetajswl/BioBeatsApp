@@ -16,9 +16,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var detailsTable: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    private let apiManager = {
-        APIManager.Service()
-    }()
+    private let apiManager = APIManager()
     
     var imdbID: String = ""
     private var dict = [String: String]()
@@ -124,7 +122,7 @@ extension MovieDetailViewController {
    
     
     private func setupAccessibilityLabels() {
-        detailsTable.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.tableview
+        detailsTable.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.Table.tableView
         crossBtn.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.crossbutton
         activityIndicator.accessibilityIdentifier = Accessibility.Identifiers.MovieDetails.activityIndicator
     }
